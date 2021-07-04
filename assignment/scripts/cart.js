@@ -21,3 +21,10 @@ function listItems() {
     }
 }
 console.log(listItems());
+
+function empty() {
+  basket.length = 0;
+}
+
+console.log('removing items from cart', empty());
+console.log('basket now contains:', basket);
